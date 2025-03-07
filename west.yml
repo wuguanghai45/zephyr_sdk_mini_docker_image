@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    - name: remote1
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: mini_zephyr
+      url: https://github.com/wuguanghai45/mini_zephyr.git
+      revision: main
+      import: true
+
+
+  self:
+    path: workspace
